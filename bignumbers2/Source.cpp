@@ -23,7 +23,7 @@ int main()
     }
 
     length = a.size() + n.size() - 1;
-    
+    int l = length;
     int* C = new int[length];
     for (int ix = 0; ix < length; ix++)
     {
@@ -48,8 +48,8 @@ int main()
         length--;
     }
    // cout << " 4to do etogo, to ne schitaetsya    ";
-    for (int i = length; i >-1; i--) {
-        cout << C[i] << endl;
+    for (int i = length-1; i >-1; i--) {
+        cout << C[i];
     }
         
     
