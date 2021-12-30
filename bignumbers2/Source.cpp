@@ -23,7 +23,7 @@ int main()
     }
 
     length = a.size() + n.size() - 1;
-    int l = length;
+    
     int* C = new int[length];
     for (int ix = 0; ix < length; ix++)
     {
